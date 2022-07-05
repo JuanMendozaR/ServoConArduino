@@ -9,4 +9,4 @@
 - ServoMotor 5V
 
 
-## pedes ver el video en [YouTube](https://youtu.be/bPUZMaHxnvQ)
+## Puedes ver el video en [YouTube](https://youtu.be/bPUZMaHxnvQ)
