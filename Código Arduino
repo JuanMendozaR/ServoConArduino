@@ -1,0 +1,30 @@
+/*********************************************************************************************
+Manejo de servo motor con  Arduino Nano
+servo 5 v
+4 / julio /2022
+Juan De Dios Mendoza Rojo
+
+**********************************************************************************************/
+#include <Servo.h>
+
+Servo servoUno;                     // crea el objeto para controlar un servo
+int posicion = 0;                   // variable para guardar la posicion del servo
+
+void setup() {
+   myservo.attach(7);              // conecte la variable servUno al pin 7 
+}
+
+void loop() {
+   
+   for (pos = 0; pos <= 180; pos += 1)   // va de 0 grados a 180 grados de 1 en 1 grados
+   {
+      myservo.write(pos);                // llama a servoUno para ir a la posicion en la variable "posicion"
+      delay(15);                         // espera 15 milisegundos para que el servo llegue a la posicion
+   }
+  
+   for (pos = 180; pos >= 0; pos -= 1)                 // va de 180 grados a 0 grados de 1 en 1   
+   {
+      myservo.write(pos);                         // llama a servoUno para ir a la posicion en la variable "posicion"
+      delay(15);                        // espera 15 milisegundos para que el servo llegue a la posicion
+   }
+}    
