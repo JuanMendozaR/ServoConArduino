@@ -7,3 +7,6 @@
 - Entorno de Desarrollo Integrado [Arduino IDE](https://www.arduino.cc/en/software)
 - Arduino Nano
 - ServoMotor 5V
+
+
+## pedes ver el video en [YouTube](https://youtu.be/bPUZMaHxnvQ)
